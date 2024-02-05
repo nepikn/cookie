@@ -19,6 +19,6 @@ function deny() {
 }
 
 function reset() {
-  Cookies.set("consent", "false");
+  Cookies.remove("consent");
   location.reload();
 }
