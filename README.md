@@ -3,7 +3,7 @@
 
 ## 展示
 
-![screenshot](./public/screenshot.jpg)
+![screenshot](https://hackmd.io/_uploads/BkcytoJiT.jpg)
 
 [Live Demo](https://nepikn.github.io/cookie-dialog/)
 
@@ -52,3 +52,9 @@ if (Cookies.get("consent") != "true") {
 - `<dialog>::backdrop` 調整 `<dialog>` 外圍的樣式；
 - `dialog.showModal()` 後用戶無法與 `<dialog>` 之外的元件互動，`dialog.show()` 則不限制互動；
 - `<form method="dialog">` 不發送表單而是關閉包含 `<form>` 的 `<dialog>`。
+
+## 相關資源
+
+- [The Modern JavaScript Tutorial - Cookies, document.cookie](https://javascript.info/cookie)
+- [MDN - Document: cookie property](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie)
+- [MDN - Set-Cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie)
