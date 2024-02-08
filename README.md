@@ -1,9 +1,10 @@
 # Cookie Dialog
+
 結合 Cookie 和 `<dialog>` 的確認彈窗
 
 ## 展示
 
-![screenshot](https://hackmd.io/_uploads/BkcytoJiT.jpg)
+![screenshot](./public/screenshot.jpg)
 
 [Live Demo](https://nepikn.github.io/cookie-dialog/)
 

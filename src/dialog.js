@@ -1,11 +1,11 @@
 import Cookies from "../node_modules/js-cookie";
 
 export function setupDialog(dialog, consentBtn, denyBtn, resetBtn) {
-  if (Cookies.get("consent") != "true") {
-    consentBtn.onclick = consent;
-    denyBtn.onclick = deny;
-    resetBtn.onclick = reset;
+  consentBtn.onclick = consent;
+  denyBtn.onclick = deny;
+  resetBtn.onclick = reset;
 
+  if (Cookies.get("consent") != "true") {
     dialog.showModal();
   }
 }
