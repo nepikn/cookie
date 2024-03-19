@@ -1,6 +1,6 @@
 # Cookie Dialog
 
-結合 Cookie 和 `<dialog>` 的確認彈窗
+藉由 Cookie 和 `<dialog>` 實現「同意之後不再顯示的確認彈窗」
 
 ## 展示
 
